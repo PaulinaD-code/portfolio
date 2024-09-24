@@ -2,7 +2,7 @@
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url('computer1.jpg');
+    background-image: url('./computer1.jpg');
     background-size: cover;
     background-blend-mode:multiply; 
     color: var(--clr-light);
