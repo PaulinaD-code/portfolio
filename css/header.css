@@ -8,15 +8,9 @@
   color: rgb(209, 45, 113);;
 }
 
-
 .logo {
   max-width: 120px;
-  /*border: 1px solid black;
-  padding-left: 0.5em;
-  line-height: 15px; */
 }
-
-
 
 .logo-paulina {
   font-family: 'Red Hat Display', sans-serif;
@@ -122,13 +116,12 @@
   padding: 0;
   font-weight: 900;
   font-size: 140px;
-  background-image: url('../img/ganapathy-kumar-ve_uN9V8xqU-unsplash.jpg');
+  background-image: url('img/ganapathy-kumar-ve_uN9V8xqU-unsplash.jpg');
   background-size: contain;
   font-family: 'Railway', sans-serif;
   color: pink;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  
 }
 
 @media(max-width: 900px){
