@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 /* custom properties */
 
 :root {
@@ -16,14 +15,7 @@
 
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: /*  #9374c3 */ 
-    /* #b4d56d */ 
-    /*#f55307 */
-    /* #fcdf03 */
-    /* #16e0bd; */
-    /* #D5335D ; */
-    /*#f4ff81;*/
-    /*#eeff41;*/
+    --clr-accent:
     rgb(209, 45, 113);
 
     --fs-h1: 3rem;
@@ -44,13 +36,6 @@
     }
 }
 
-/* general styles */
-
-/*html {
-    scroll-behavior: smooth;
-} */
-
-
 body {
     background: var(--clr-light);
     color: var(--clr-dark);
@@ -60,7 +45,6 @@ body {
     line-height: 1.6;
     position: relative;
 }
-
 
 section {
     padding: 5em 2em;
@@ -165,7 +149,6 @@ h3 { font-size: var(--fs-h3) }
     margin-bottom: 2em;
 }
 
-
 /* Intro section */ 
 
 .intro {
@@ -176,9 +159,6 @@ h3 { font-size: var(--fs-h3) }
 
 .intro__img {
     box-shadow: var(--bs);
-  
-
-    /*border-radius: 10%;*/
 }
 
 .section__subtitle--intro {
@@ -208,7 +188,6 @@ h3 { font-size: var(--fs-h3) }
         min-width: 250px;
         position: relative;
         z-index: 2;
-        /*border-radius: 100%;*/
     }
 
     .section__subtitle--intro {
@@ -221,7 +200,6 @@ h3 { font-size: var(--fs-h3) }
         width: calc(100%  + 1.5em);
     }
 }
-
 
 /* My work */
 
@@ -253,7 +231,6 @@ h3 { font-size: var(--fs-h3) }
     background: var(--clr-accent);
     overflow: hidden;
     border-radius: 10px;
-
 }
 
 .portfolio__img{
