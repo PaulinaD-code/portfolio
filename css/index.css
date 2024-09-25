@@ -293,6 +293,16 @@ h3 { font-size: var(--fs-h3) }
     grid-gap: 1em;
     margin: 1em auto;
 }
+
+    .portfolio__img{
+    transition:
+        transform 750ms cubic-bezier(.5, 0, .5, 1),
+        opacity 250ms linear;
+        inline-size: 1fr;
+        height: 200px;
+        object-fit: cover;
+}
+    
 }
 
 
