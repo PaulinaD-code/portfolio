@@ -277,3 +277,22 @@ h3 { font-size: var(--fs-h3) }
     opacity: .5;
 }
 
+@media(max-width: 600px){
+    .portfolio {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 1em;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+
+    .porfolio-app{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 1em;
+    margin: 1em auto;
+}
+}
+
+
