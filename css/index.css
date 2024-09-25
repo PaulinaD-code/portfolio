@@ -302,6 +302,10 @@ h3 { font-size: var(--fs-h3) }
         height: 200px;
         object-fit: cover;
 }
+    .portfolio__img-app{
+    transition:
+        height: 250px;    
+}
     
 }
 
